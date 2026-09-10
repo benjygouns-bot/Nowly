@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOWLY — Discover what to do right now</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #ffffff;
+      color: #111111;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+    }
+
+    .content {
+      max-width: 760px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 56px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      margin-bottom: 18px;
+    }
+
+    .tagline {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 22px;
+    }
+
+    .description {
+      color: #666;
+      font-size: 18px;
+      line-height: 1.7;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 10px 18px;
+      border-radius: 30px;
+      background: #f1f1f5;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .features {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .feature {
+      padding: 24px 16px;
+      background: #f7f7f9;
+      border-radius: 20px;
+    }
+
+    .feature h3 {
+      margin: 0 0 8px;
+    }
+
+    .feature p {
+      margin: 0;
+      color: #777;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 650px) {
+      .logo {
+        font-size: 44px;
+      }
+
+      .tagline {
+        font-size: 25px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="hero">
+    <div class="content">
+
+      <div class="logo">NOWLY</div>
+
+      <div class="tagline">
+        Discover what you can do around you, right now.
+      </div>
+
+      <p class="description">
+        NOWLY is a mobile discovery app currently in development.
+        It uses your location and the current time to help you discover
+        real activities, attractions, cultural experiences and events
+        available around you.
+      </p>
+
+      <div class="status">
+        Mobile app currently in development
+      </div>
+
+      <div class="features">
+
+        <div class="feature">
+          <h3>📍 Around you</h3>
+          <p>
+            Discover things to do based on your current location.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h3>⚡ Right now</h3>
+          <p>
+            Find activities and experiences relevant to the current time.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h3>🎟 Experiences</h3>
+          <p>
+            Explore attractions, cultural activities and bookable experiences.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
